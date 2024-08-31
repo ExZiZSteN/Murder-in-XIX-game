@@ -3,7 +3,7 @@ let gold = 30;
 let count_bar = 0;
 let count_vseg = 0;
 let follow = 0;
-let inventory = ["Револьвер"];
+let inventory = [];
 let shovel = 0;
 let answer = document.querySelector("#ans");
 const button1 = document.querySelector('#button1');
@@ -231,6 +231,8 @@ function restart(){
     follow = 0;
     inventory = ["Револьвер"];
     shovel = 0;
+    text.innerHTML= "Добро пожаловать в 1860-ые, вы маршал и ваша цель вычислить и убить серийного маньяка. Вы находитесь на развилке.Права на ошибку нет! Убийцу вы повстречаете на своем пути.Чтобы начать нужно воспользоватся кнопками."
+
 }
 
 button5.addEventListener ('click', () => {
