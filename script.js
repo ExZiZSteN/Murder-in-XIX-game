@@ -238,6 +238,7 @@ function restart(){
     button1.onclick = goTown;
     button2.onclick = goForest;
     button3.onclick = goVillage;
+    goldText.innerHTML = "30$";
     text.innerHTML= "Добро пожаловать в 1860-ые, вы маршал и ваша цель вычислить и убить серийного маньяка. Вы находитесь на развилке. рава на ошибку нет! Убийцу вы повстречаете на своем пути. Чтобы начать нужно воспользоватся кнопками."
 }
 
